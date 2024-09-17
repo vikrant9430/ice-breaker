@@ -4,7 +4,6 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_openai import ChatOpenAI
 from langchain_ollama import ChatOllama
 from dotenv import load_dotenv
-import os
 from third_parties.linkedin import scrape_linkedin_profile
 
 
